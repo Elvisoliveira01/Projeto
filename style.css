@@ -34,6 +34,7 @@
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
+    height: 100vh;
 }
 
 body *{
@@ -169,6 +170,15 @@ footer{
     font-size: 14px;
 }
 
+@media(min-width: 700px) {
+    :root {
+        --bg-url: url(./assets/bg.jpg);
+    }
+
+    .light {
+        --bg-url: url(./assets/bg-ligth.jpg);
+    }
+}
 
 
 
